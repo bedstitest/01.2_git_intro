@@ -40,5 +40,11 @@ namespace E01.Test.Unit
         {
             Assert.That(uut.Power(2, 3), Is.EqualTo(8));
         }
+
+        [Test]
+        public void Add_Negative_Numbers_ResultIsCorrect()
+        {
+            Assert.That(uut.Add(-3,-4), Is.EqualTo(-7));
+        }
     }
 }

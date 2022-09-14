@@ -18,5 +18,17 @@
         {
             return Math.Pow(x,exp);
         }
+        public double Division(double x, double y)
+        {
+            if (y == 0)
+            {
+                throw new DivideByZeroException();
+            }
+            return x / y;
+        }
+        public double Squareroot(double x)
+        {
+            return Math.Sqrt(x);
+        }
     }
 }
